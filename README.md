@@ -16,12 +16,14 @@ Simple Tamil voicebot/assistant using python
 
    pip version: 19.X
 
-## Installtion 
+## Package Installation
     Run the shell script
     ./installPackages
 
 ## Starting the assistant
-    python voice.py - for the voicebot
+    python voice.py 
+   
+## Starting the gmail module
     python gmailTamil.py - for the gmail Module
 
 ## Known issues/bugs
