@@ -141,12 +141,6 @@ def assistant(Vcommand):
         thread1 = threading.Thread(target=playVideo, args=(uTubeSearch(Vcommand),))
         thread1.start()
         time.sleep(10)      
-    # elif 'பாடல்களை நிறுத்தவும்'  in Vcommand or 'பாடல்களை நிறுத்துங்கள்' in Vcommand:
-    #     media.stop()
-    # elif 'பாடல்களை இடை நிறுத்துங்கள்' in Vcommand or 'பாடல்களை இடைநிறுத்தங்கள்' in Vcommand:
-    #     media.pause()
-    # elif 'பாடல்களை இயக்கு' in Vcommand or 'பாடல்களை இயக்குங்கள் ' in Vcommand:
-    #     media.play()
     elif 'நிறுத்தவும்'  in Vcommand or 'நிறுத்துங்கள்' in Vcommand:
         media.stop()
     elif 'இடைநிறுத்து்' in Vcommand or 'இடைநிறுத்தங்கள்' in Vcommand:
@@ -157,12 +151,6 @@ def assistant(Vcommand):
         thread2 = threading.Thread(target=playLiveVideo,args=('https://www.youtube.com/watch?v=ntwdBX-PZpA',))
         thread2.start()
         time.sleep(10)
-    # elif 'செய்தியை நிறுத்தவும்'  in Vcommand or 'செய்தியை நிறுத்துங்கள்' in Vcommand:
-    #     media.stop()
-    # elif 'செய்தியை இடை நிறுத்துங்கள்' in Vcommand or 'செய்தியை இடைநிறுத்தங்கள்' in Vcommand:
-    #     media.pause()
-    # elif 'செய்தியை இயக்கு' in Vcommand or 'செய்தியை இயக்குங்கள் ' in Vcommand:
-    #     media.play()
     elif 'செய்தி' in Vcommand or 'செய்திகள்' in Vcommand:
         DailyThanthi(Vcommand)
     else:
