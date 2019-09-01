@@ -24,7 +24,7 @@ Simple Tamil voicebot/assistant using python
     python voice.py 
    
 ## Starting the gmail module
-    python gmailTamil.py - for the gmail Module
+    python gmailTamil.py 
 
 ## Known issues/bugs
     Voice commands not being recognized
@@ -46,17 +46,18 @@ Simple Tamil voicebot/assistant using python
     pip install -U textblob
     pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
     pip install gTTS
-    pip install SpeechRecognition 
-              https://pypi.org/project/SpeechRecognition/
-   
-    sudo apt-get install python-pyaudio python3-pyaudio  (-- For microphone)
-              http://people.csail.mit.edu/hubert/pyaudio/#downloads
-              
     sudo apt-get install mpg321
     pip install python-vlc
     pip install pafy
     pip install google-search
- 
+    
+    pip install SpeechRecognition 
+              https://pypi.org/project/SpeechRecognition/
+   
+    sudo apt-get install python-pyaudio python3-pyaudio  
+              http://people.csail.mit.edu/hubert/pyaudio/#downloads
+              
+    
 ## Voicebot
     command for songs(video songs) - The initiating command is பாடல் or பாடல்கள் (examples: அனிருத் பாடல்கள் or அனிருத் பாடல் )
                       - stop the song - நிறுத்தவும் or நிறுத்துங்கள்
